@@ -18,6 +18,8 @@ namespace Physics
             resetGroupBoxes();
         }
 
+        public int radioButtonChecked = 0;
+
         private void білийToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.BackColor = Color.White;
@@ -46,9 +48,38 @@ namespace Physics
             }
         }
 
+        public void checkFirstTheme()
+        {
+            int correct = 0;
+            if (th1gb1rb1.Checked)
+            {
+                correct++;
+            }
+            if(th1gb2rb2.Checked)
+            {
+                correct++;
+            }
+            if(th1gb3rb1.Checked)
+            {
+                correct++;
+            }
+            if(th1gb4rb4.Checked)
+            {
+                correct++;
+            }
+            correctLabel.Text = "Correct: " + correct.ToString() + "/4";
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            switch(radioButtonChecked)
+            {
+                case 0:
+                    break;
+                case 1:
+                    checkFirstTheme();
+                    break; 
+            }
         }
 
 
@@ -56,10 +87,12 @@ namespace Physics
         {
             Електродинаміка.Visible = false;
         }
-        public void updateText(int k)
+        public void updateText()
         {
-            switch(k)
+            switch(radioButtonChecked)
             {
+                case 0:
+                    break;
                 case 1:
                     webBrowser1.Navigate("http://disted.edu.vn.ua/courses/learn/4837");
                     resetGroupBoxes();
@@ -73,12 +106,15 @@ namespace Physics
 
         private void formRadioButton1_CheckedChanged(object sender, EventArgs e)
         {
-               updateText(1);
+            radioButtonChecked = 1;
+            updateText();
         }
 
         private void formRadioButton2_CheckedChanged(object sender, EventArgs e)
         {
-            updateText(2);
+            radioButtonChecked = 2;
+            updateText();
+            
         }
     }
 }
