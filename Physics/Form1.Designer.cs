@@ -40,6 +40,7 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.menuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.SuspendLayout();
@@ -67,7 +68,7 @@
             // вихідToolStripMenuItem
             // 
             this.вихідToolStripMenuItem.Name = "вихідToolStripMenuItem";
-            this.вихідToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.вихідToolStripMenuItem.Size = new System.Drawing.Size(102, 22);
             this.вихідToolStripMenuItem.Text = "Вихід";
             this.вихідToolStripMenuItem.Click += new System.EventHandler(this.вихідToolStripMenuItem_Click);
             // 
@@ -86,27 +87,27 @@
             this.синійToolStripMenuItem,
             this.сірийToolStripMenuItem});
             this.колірФонуToolStripMenuItem.Name = "колірФонуToolStripMenuItem";
-            this.колірФонуToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.колірФонуToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.колірФонуToolStripMenuItem.Text = "Колір фону";
             // 
             // білийToolStripMenuItem
             // 
             this.білийToolStripMenuItem.Name = "білийToolStripMenuItem";
-            this.білийToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.білийToolStripMenuItem.Size = new System.Drawing.Size(105, 22);
             this.білийToolStripMenuItem.Text = "білий";
             this.білийToolStripMenuItem.Click += new System.EventHandler(this.білийToolStripMenuItem_Click);
             // 
             // синійToolStripMenuItem
             // 
             this.синійToolStripMenuItem.Name = "синійToolStripMenuItem";
-            this.синійToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.синійToolStripMenuItem.Size = new System.Drawing.Size(105, 22);
             this.синійToolStripMenuItem.Text = "синій";
             this.синійToolStripMenuItem.Click += new System.EventHandler(this.синійToolStripMenuItem_Click);
             // 
             // сірийToolStripMenuItem
             // 
             this.сірийToolStripMenuItem.Name = "сірийToolStripMenuItem";
-            this.сірийToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.сірийToolStripMenuItem.Size = new System.Drawing.Size(105, 22);
             this.сірийToolStripMenuItem.Text = "сірий";
             this.сірийToolStripMenuItem.Click += new System.EventHandler(this.сірийToolStripMenuItem_Click);
             // 
@@ -124,7 +125,7 @@
             this.tabControl1.Location = new System.Drawing.Point(13, 28);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(195, 207);
+            this.tabControl1.Size = new System.Drawing.Size(247, 287);
             this.tabControl1.TabIndex = 1;
             // 
             // tabPage1
@@ -132,9 +133,9 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(187, 181);
+            this.tabPage1.Size = new System.Drawing.Size(239, 261);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "tabPage1";
+            this.tabPage1.Text = "Матеріали";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // tabPage2
@@ -142,16 +143,24 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(192, 74);
+            this.tabPage2.Size = new System.Drawing.Size(207, 261);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "tabPage2";
+            this.tabPage2.Text = "Тести";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(295, 0);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(127, 20);
+            this.dateTimePicker1.TabIndex = 2;
             // 
             // Фізика
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(434, 338);
+            this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
@@ -179,6 +188,7 @@
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }
 
