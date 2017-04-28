@@ -67,6 +67,14 @@
             this.th1gb4rb2 = new System.Windows.Forms.RadioButton();
             this.th1gb4rb1 = new System.Windows.Forms.RadioButton();
             this.correctLabel = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -76,6 +84,14 @@
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -209,6 +225,8 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.pictureBox5);
+            this.groupBox1.Controls.Add(this.pictureBox1);
             this.groupBox1.Controls.Add(this.th1gb1rb4);
             this.groupBox1.Controls.Add(this.th1gb1rb3);
             this.groupBox1.Controls.Add(this.th1gb1rb2);
@@ -267,6 +285,8 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.pictureBox6);
+            this.groupBox2.Controls.Add(this.pictureBox2);
             this.groupBox2.Controls.Add(this.th1gb2rb4);
             this.groupBox2.Controls.Add(this.th1gb2rb3);
             this.groupBox2.Controls.Add(this.th1gb2rb2);
@@ -356,6 +376,7 @@
             // formRadioButton2
             // 
             this.formRadioButton2.AutoSize = true;
+            this.formRadioButton2.Checked = true;
             this.formRadioButton2.Location = new System.Drawing.Point(505, 72);
             this.formRadioButton2.Name = "formRadioButton2";
             this.formRadioButton2.Size = new System.Drawing.Size(34, 17);
@@ -367,6 +388,8 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.pictureBox7);
+            this.groupBox3.Controls.Add(this.pictureBox3);
             this.groupBox3.Controls.Add(this.th1gb3rb4);
             this.groupBox3.Controls.Add(this.th1gb3rb3);
             this.groupBox3.Controls.Add(this.th1gb3rb2);
@@ -425,6 +448,8 @@
             // 
             // groupBox4
             // 
+            this.groupBox4.Controls.Add(this.pictureBox8);
+            this.groupBox4.Controls.Add(this.pictureBox4);
             this.groupBox4.Controls.Add(this.th1gb4rb4);
             this.groupBox4.Controls.Add(this.th1gb4rb3);
             this.groupBox4.Controls.Add(this.th1gb4rb2);
@@ -490,6 +515,86 @@
             this.correctLabel.TabIndex = 7;
             this.correctLabel.Text = "Correct: 0/0";
             // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::Physics.Properties.Resources.correct;
+            this.pictureBox4.Location = new System.Drawing.Point(364, 35);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(31, 29);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 1;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::Physics.Properties.Resources.correct;
+            this.pictureBox3.Location = new System.Drawing.Point(364, 33);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(31, 29);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 1;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Physics.Properties.Resources.correct;
+            this.pictureBox1.Location = new System.Drawing.Point(364, 23);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(31, 29);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Physics.Properties.Resources.correct;
+            this.pictureBox2.Location = new System.Drawing.Point(364, 29);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(31, 29);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::Physics.Properties.Resources.incorrect;
+            this.pictureBox5.Location = new System.Drawing.Point(391, 23);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(31, 29);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 1;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::Physics.Properties.Resources.incorrect;
+            this.pictureBox6.Location = new System.Drawing.Point(391, 29);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(31, 29);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 1;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::Physics.Properties.Resources.incorrect;
+            this.pictureBox7.Location = new System.Drawing.Point(391, 30);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(31, 29);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 1;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = global::Physics.Properties.Resources.incorrect;
+            this.pictureBox8.Location = new System.Drawing.Point(391, 35);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(31, 29);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox8.TabIndex = 1;
+            this.pictureBox8.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -518,6 +623,14 @@
             this.groupBox3.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -564,6 +677,14 @@
         private System.Windows.Forms.RadioButton th1gb4rb2;
         private System.Windows.Forms.RadioButton th1gb4rb1;
         private System.Windows.Forms.Label correctLabel;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox6;
     }
 }
 

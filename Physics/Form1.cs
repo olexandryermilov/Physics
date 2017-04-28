@@ -16,6 +16,7 @@ namespace Physics
         {
             InitializeComponent();
             resetGroupBoxes();
+            resetPictureBoxes();
         }
 
         public int radioButtonChecked = 0;
@@ -54,29 +55,63 @@ namespace Physics
             if (th1gb1rb1.Checked)
             {
                 correct++;
+                pictureBox1.Visible = true;
+            }
+            else
+            {
+                pictureBox5.Visible = true;
             }
             if(th1gb2rb2.Checked)
             {
                 correct++;
+                pictureBox2.Visible = true;
+            }
+            else
+            {
+                pictureBox6.Visible = true;
             }
             if(th1gb3rb1.Checked)
             {
                 correct++;
+                pictureBox3.Visible = true;
+            }
+            else
+            {
+                pictureBox7.Visible = true;
             }
             if(th1gb4rb4.Checked)
             {
                 correct++;
+                pictureBox4.Visible = true;
+            }
+            else
+            {
+                pictureBox8.Visible = true;
             }
             correctLabel.Text = "Correct: " + correct.ToString() + "/4";
         }
 
+        public void resetPictureBoxes()
+        {
+            pictureBox1.Visible = false;
+            pictureBox2.Visible = false;
+            pictureBox3.Visible = false;
+            pictureBox4.Visible = false;
+            pictureBox5.Visible = false;
+            pictureBox6.Visible = false;
+            pictureBox7.Visible = false;
+            pictureBox8.Visible = false;
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
+            resetPictureBoxes();
             switch(radioButtonChecked)
             {
                 case 0:
                     break;
                 case 1:
+                  
                     checkFirstTheme();
                     break; 
             }
@@ -94,7 +129,7 @@ namespace Physics
                 case 0:
                     break;
                 case 1:
-                    webBrowser1.Navigate("http://disted.edu.vn.ua/courses/learn/4837");
+                    webBrowser1.Navigate("http://disted.edu.vn.ua/courses/learn/6029");
                     resetGroupBoxes();
                     Електродинаміка.Visible = true;
                     break;
