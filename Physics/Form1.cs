@@ -121,7 +121,7 @@ namespace Physics
             {
                 th2gr3pb2.Visible = true;
             }
-            if (th2gr4rb4.Checked)
+            if (th2gr4rb2.Checked)
             {
                 correct++;
                 th2gr4pb1.Visible = true;
