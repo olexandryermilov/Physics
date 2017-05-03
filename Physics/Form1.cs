@@ -91,6 +91,48 @@ namespace Physics
             correctLabel.Text = "Correct: " + correct.ToString() + "/4";
         }
 
+        public void checkSecondTheme()
+        {
+            int correct = 0;
+            if (th2gr1rb1.Checked)
+            {
+                correct++;
+                th2gr1pb1.Visible = true;
+            }
+            else
+            {
+                th2gr1pb2.Visible = true;
+            }
+            if (th2gr2rb3.Checked)
+            {
+                correct++;
+                th2gr2pb1.Visible = true;
+            }
+            else
+            {
+                th2gr2pb2.Visible = true;
+            }
+            if (th2gr3rb3.Checked)
+            {
+                correct++;
+                th2gr3pb1.Visible = true;
+            }
+            else
+            {
+                th2gr3pb2.Visible = true;
+            }
+            if (th2gr4rb4.Checked)
+            {
+                correct++;
+                th2gr4pb1.Visible = true;
+            }
+            else
+            {
+                th2gr4pb2.Visible = true;
+            }
+            correctLabel.Text = "Correct: " + correct.ToString() + "/4";
+        }
+
         public void resetPictureBoxes()
         {
             pictureBox1.Visible = false;
@@ -101,6 +143,15 @@ namespace Physics
             pictureBox6.Visible = false;
             pictureBox7.Visible = false;
             pictureBox8.Visible = false;
+
+            th2gr1pb1.Visible = false;
+            th2gr2pb1.Visible = false;
+            th2gr3pb1.Visible = false;
+            th2gr4pb1.Visible = false;
+            th2gr1pb2.Visible = false;
+            th2gr2pb2.Visible = false;
+            th2gr3pb2.Visible = false;
+            th2gr4pb2.Visible = false;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -111,9 +162,11 @@ namespace Physics
                 case 0:
                     break;
                 case 1:
-                  
                     checkFirstTheme();
-                    break; 
+                    break;
+                case 2:
+                    checkSecondTheme();
+                    break;
             }
         }
 
@@ -121,10 +174,11 @@ namespace Physics
         public void resetGroupBoxes()
         {
             Електродинаміка.Visible = false;
+            ЗаконОма.Visible = false;
         }
         public void updateText()
         {
-            correctLabel.Text="Correct: 0/0"
+            correctLabel.Text = "Correct: 0/0";
             switch(radioButtonChecked)
             {
                 case 0:
@@ -136,6 +190,7 @@ namespace Physics
                     break;
                 case 2:
                     resetGroupBoxes();
+                    ЗаконОма.Visible = true;
                     break;
             }
         }
@@ -150,7 +205,6 @@ namespace Physics
         {
             radioButtonChecked = 2;
             updateText();
-            
         }
     }
 }

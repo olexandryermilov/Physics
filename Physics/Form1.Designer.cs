@@ -716,7 +716,7 @@
             this.th2gr4rb2.Size = new System.Drawing.Size(50, 17);
             this.th2gr4rb2.TabIndex = 0;
             this.th2gr4rb2.TabStop = true;
-            this.th2gr4rb2.Text = "3 Ом";
+            this.th2gr4rb2.Text = "4 Ом";
             this.th2gr4rb2.UseVisualStyleBackColor = true;
             // 
             // th2gr4rb1
