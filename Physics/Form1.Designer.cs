@@ -628,12 +628,10 @@
             // formRadioButton2
             // 
             this.formRadioButton2.AutoSize = true;
-            this.formRadioButton2.Checked = true;
             this.formRadioButton2.Location = new System.Drawing.Point(505, 72);
             this.formRadioButton2.Name = "formRadioButton2";
             this.formRadioButton2.Size = new System.Drawing.Size(81, 17);
             this.formRadioButton2.TabIndex = 3;
-            this.formRadioButton2.TabStop = true;
             this.formRadioButton2.Text = "Закон Ома";
             this.formRadioButton2.UseVisualStyleBackColor = true;
             this.formRadioButton2.CheckedChanged += new System.EventHandler(this.formRadioButton2_CheckedChanged);
