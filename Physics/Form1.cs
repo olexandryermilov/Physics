@@ -124,6 +124,7 @@ namespace Physics
         }
         public void updateText()
         {
+            correctLabel.Text="Correct: 0/0"
             switch(radioButtonChecked)
             {
                 case 0:
