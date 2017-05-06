@@ -28,7 +28,7 @@ namespace Physics
 
         private void синійToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.BackColor = Color.Blue;
+            this.BackColor = Color.LightBlue;
         }
 
         private void сірийToolStripMenuItem_Click(object sender, EventArgs e)
@@ -133,6 +133,48 @@ namespace Physics
             correctLabel.Text = "Correct: " + correct.ToString() + "/4";
         }
 
+        public void checkThirdTheme()
+        {
+            int correct = 0;
+            if (th3gr1rb2.Checked)
+            {
+                correct++;
+                th3gr1pb1.Visible = true;
+            }
+            else
+            {
+                th3gr1pb2.Visible = true;
+            }
+            if (th3gr2rb1.Checked)
+            {
+                correct++;
+                th3gr2pb1.Visible = true;
+            }
+            else
+            {
+                th3gr2pb2.Visible = true;
+            }
+            if (th3gr3rb1.Checked)
+            {
+                correct++;
+                th3gr3pb1.Visible = true;
+            }
+            else
+            {
+                th3gr3pb2.Visible = true;
+            }
+            if (th3gr4rb4.Checked)
+            {
+                correct++;
+                th3gr4pb1.Visible = true;
+            }
+            else
+            {
+                th3gr4pb2.Visible = true;
+            }
+            correctLabel.Text = "Correct: " + correct.ToString() + "/4";
+        }
+
         public void resetPictureBoxes()
         {
             pictureBox1.Visible = false;
@@ -152,6 +194,15 @@ namespace Physics
             th2gr2pb2.Visible = false;
             th2gr3pb2.Visible = false;
             th2gr4pb2.Visible = false;
+
+            th3gr1pb1.Visible = false;
+            th3gr2pb1.Visible = false;
+            th3gr3pb1.Visible = false;
+            th3gr4pb1.Visible = false;
+            th3gr1pb2.Visible = false;
+            th3gr2pb2.Visible = false;
+            th3gr3pb2.Visible = false;
+            th3gr4pb2.Visible = false;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -167,6 +218,10 @@ namespace Physics
                 case 2:
                     checkSecondTheme();
                     break;
+                case 3:
+                    checkThirdTheme();
+                    break;
+
             }
         }
 
@@ -175,7 +230,9 @@ namespace Physics
         {
             Електродинаміка.Visible = false;
             ЗаконОма.Visible = false;
+            МолекулярнаФізика.Visible = false;
         }
+
         public void updateText()
         {
             correctLabel.Text = "Correct: 0/0";
@@ -184,13 +241,19 @@ namespace Physics
                 case 0:
                     break;
                 case 1:
-                    webBrowser1.Navigate("http://disted.edu.vn.ua/courses/learn/6029");
+                    webBrowser1.Navigate("http://disted.edu.vn.ua/courses/learn/6041");
                     resetGroupBoxes();
                     Електродинаміка.Visible = true;
                     break;
                 case 2:
+                    webBrowser1.Navigate("http://disted.edu.vn.ua/courses/learn/6029");
                     resetGroupBoxes();
                     ЗаконОма.Visible = true;
+                    break;
+                case 3:
+                    webBrowser1.Navigate("http://disted.edu.vn.ua/courses/learn/3656");
+                    resetGroupBoxes();
+                    МолекулярнаФізика.Visible = true;
                     break;
             }
         }
@@ -204,6 +267,12 @@ namespace Physics
         private void formRadioButton2_CheckedChanged(object sender, EventArgs e)
         {
             radioButtonChecked = 2;
+            updateText();
+        }
+
+        private void formRadioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+            radioButtonChecked = 3;
             updateText();
         }
     }
