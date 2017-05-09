@@ -41,6 +41,35 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.МолекулярнаФізика = new System.Windows.Forms.GroupBox();
+            this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.th3gr4pb2 = new System.Windows.Forms.PictureBox();
+            this.th3gr4pb1 = new System.Windows.Forms.PictureBox();
+            this.th3gr4rb4 = new System.Windows.Forms.RadioButton();
+            this.th3gr4rb3 = new System.Windows.Forms.RadioButton();
+            this.th3gr4rb2 = new System.Windows.Forms.RadioButton();
+            this.th3gr4rb1 = new System.Windows.Forms.RadioButton();
+            this.groupBox8 = new System.Windows.Forms.GroupBox();
+            this.th3gr3pb2 = new System.Windows.Forms.PictureBox();
+            this.th3gr3pb1 = new System.Windows.Forms.PictureBox();
+            this.th3gr3rb4 = new System.Windows.Forms.RadioButton();
+            this.th3gr3rb3 = new System.Windows.Forms.RadioButton();
+            this.th3gr3rb2 = new System.Windows.Forms.RadioButton();
+            this.th3gr3rb1 = new System.Windows.Forms.RadioButton();
+            this.th3gr1 = new System.Windows.Forms.GroupBox();
+            this.th3gr1pb2 = new System.Windows.Forms.PictureBox();
+            this.th3gr1pb1 = new System.Windows.Forms.PictureBox();
+            this.th3gr1rb4 = new System.Windows.Forms.RadioButton();
+            this.th3gr1rb3 = new System.Windows.Forms.RadioButton();
+            this.th3gr1rb2 = new System.Windows.Forms.RadioButton();
+            this.th3gr1rb1 = new System.Windows.Forms.RadioButton();
+            this.groupBox10 = new System.Windows.Forms.GroupBox();
+            this.th3gr2pb2 = new System.Windows.Forms.PictureBox();
+            this.th3gr2pb1 = new System.Windows.Forms.PictureBox();
+            this.th3gr2rb4 = new System.Windows.Forms.RadioButton();
+            this.th3gr2rb3 = new System.Windows.Forms.RadioButton();
+            this.th3gr2rb2 = new System.Windows.Forms.RadioButton();
+            this.th3gr2rb1 = new System.Windows.Forms.RadioButton();
             this.ЗаконОма = new System.Windows.Forms.GroupBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.th2gr4pb2 = new System.Windows.Forms.PictureBox();
@@ -104,40 +133,54 @@
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.formRadioButton1 = new System.Windows.Forms.RadioButton();
             this.formRadioButton2 = new System.Windows.Forms.RadioButton();
-            this.МолекулярнаФізика = new System.Windows.Forms.GroupBox();
-            this.groupBox7 = new System.Windows.Forms.GroupBox();
-            this.th3gr4pb2 = new System.Windows.Forms.PictureBox();
-            this.th3gr4pb1 = new System.Windows.Forms.PictureBox();
-            this.th3gr4rb4 = new System.Windows.Forms.RadioButton();
-            this.th3gr4rb3 = new System.Windows.Forms.RadioButton();
-            this.th3gr4rb2 = new System.Windows.Forms.RadioButton();
-            this.th3gr4rb1 = new System.Windows.Forms.RadioButton();
-            this.groupBox8 = new System.Windows.Forms.GroupBox();
-            this.th3gr3pb2 = new System.Windows.Forms.PictureBox();
-            this.th3gr3pb1 = new System.Windows.Forms.PictureBox();
-            this.th3gr3rb4 = new System.Windows.Forms.RadioButton();
-            this.th3gr3rb3 = new System.Windows.Forms.RadioButton();
-            this.th3gr3rb2 = new System.Windows.Forms.RadioButton();
-            this.th3gr3rb1 = new System.Windows.Forms.RadioButton();
-            this.th3gr1 = new System.Windows.Forms.GroupBox();
-            this.th3gr1pb2 = new System.Windows.Forms.PictureBox();
-            this.th3gr1pb1 = new System.Windows.Forms.PictureBox();
-            this.th3gr1rb4 = new System.Windows.Forms.RadioButton();
-            this.th3gr1rb3 = new System.Windows.Forms.RadioButton();
-            this.th3gr1rb2 = new System.Windows.Forms.RadioButton();
-            this.th3gr1rb1 = new System.Windows.Forms.RadioButton();
-            this.groupBox10 = new System.Windows.Forms.GroupBox();
-            this.th3gr2pb2 = new System.Windows.Forms.PictureBox();
-            this.th3gr2pb1 = new System.Windows.Forms.PictureBox();
-            this.th3gr2rb4 = new System.Windows.Forms.RadioButton();
-            this.th3gr2rb3 = new System.Windows.Forms.RadioButton();
-            this.th3gr2rb2 = new System.Windows.Forms.RadioButton();
-            this.th3gr2rb1 = new System.Windows.Forms.RadioButton();
             this.formRadioButton3 = new System.Windows.Forms.RadioButton();
+            this.formRadioButton4 = new System.Windows.Forms.RadioButton();
+            this.Вологість = new System.Windows.Forms.GroupBox();
+            this.groupBox9 = new System.Windows.Forms.GroupBox();
+            this.th4gr4pb2 = new System.Windows.Forms.PictureBox();
+            this.th4gr4pb1 = new System.Windows.Forms.PictureBox();
+            this.th4gr4rb4 = new System.Windows.Forms.RadioButton();
+            this.th4gr4rb3 = new System.Windows.Forms.RadioButton();
+            this.th4gr4rb2 = new System.Windows.Forms.RadioButton();
+            this.th4gr4rb1 = new System.Windows.Forms.RadioButton();
+            this.groupBox11 = new System.Windows.Forms.GroupBox();
+            this.th4gr3pb2 = new System.Windows.Forms.PictureBox();
+            this.th4gr3pb1 = new System.Windows.Forms.PictureBox();
+            this.th4gr3rb4 = new System.Windows.Forms.RadioButton();
+            this.th4gr3rb3 = new System.Windows.Forms.RadioButton();
+            this.th4gr3rb2 = new System.Windows.Forms.RadioButton();
+            this.th4gr3rb1 = new System.Windows.Forms.RadioButton();
+            this.groupBox12 = new System.Windows.Forms.GroupBox();
+            this.th4gr1pb2 = new System.Windows.Forms.PictureBox();
+            this.th4gr1pb1 = new System.Windows.Forms.PictureBox();
+            this.th4gr1rb4 = new System.Windows.Forms.RadioButton();
+            this.th4gr1rb3 = new System.Windows.Forms.RadioButton();
+            this.th4gr1rb2 = new System.Windows.Forms.RadioButton();
+            this.th4gr1rb1 = new System.Windows.Forms.RadioButton();
+            this.th4gr2 = new System.Windows.Forms.GroupBox();
+            this.th4gr2pb2 = new System.Windows.Forms.PictureBox();
+            this.th4gr2pb1 = new System.Windows.Forms.PictureBox();
+            this.th4gr2rb4 = new System.Windows.Forms.RadioButton();
+            this.th4gr2rb3 = new System.Windows.Forms.RadioButton();
+            this.th4gr2rb2 = new System.Windows.Forms.RadioButton();
+            this.th4gr2rb1 = new System.Windows.Forms.RadioButton();
             this.menuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
+            this.МолекулярнаФізика.SuspendLayout();
+            this.groupBox7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.th3gr4pb2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.th3gr4pb1)).BeginInit();
+            this.groupBox8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.th3gr3pb2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.th3gr3pb1)).BeginInit();
+            this.th3gr1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.th3gr1pb2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.th3gr1pb1)).BeginInit();
+            this.groupBox10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.th3gr2pb2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.th3gr2pb1)).BeginInit();
             this.ЗаконОма.SuspendLayout();
             this.groupBox6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.th2gr4pb2)).BeginInit();
@@ -164,19 +207,19 @@
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.МолекулярнаФізика.SuspendLayout();
-            this.groupBox7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.th3gr4pb2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.th3gr4pb1)).BeginInit();
-            this.groupBox8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.th3gr3pb2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.th3gr3pb1)).BeginInit();
-            this.th3gr1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.th3gr1pb2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.th3gr1pb1)).BeginInit();
-            this.groupBox10.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.th3gr2pb2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.th3gr2pb1)).BeginInit();
+            this.Вологість.SuspendLayout();
+            this.groupBox9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.th4gr4pb2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.th4gr4pb1)).BeginInit();
+            this.groupBox11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.th4gr3pb2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.th4gr3pb1)).BeginInit();
+            this.groupBox12.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.th4gr1pb2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.th4gr1pb1)).BeginInit();
+            this.th4gr2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.th4gr2pb2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.th4gr2pb1)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -202,7 +245,7 @@
             // вихідToolStripMenuItem
             // 
             this.вихідToolStripMenuItem.Name = "вихідToolStripMenuItem";
-            this.вихідToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.вихідToolStripMenuItem.Size = new System.Drawing.Size(102, 22);
             this.вихідToolStripMenuItem.Text = "Вихід";
             this.вихідToolStripMenuItem.Click += new System.EventHandler(this.вихідToolStripMenuItem_Click);
             // 
@@ -221,27 +264,27 @@
             this.синійToolStripMenuItem,
             this.сірийToolStripMenuItem});
             this.колірФонуToolStripMenuItem.Name = "колірФонуToolStripMenuItem";
-            this.колірФонуToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.колірФонуToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.колірФонуToolStripMenuItem.Text = "Колір фону";
             // 
             // білийToolStripMenuItem
             // 
             this.білийToolStripMenuItem.Name = "білийToolStripMenuItem";
-            this.білийToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.білийToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
             this.білийToolStripMenuItem.Text = "білий";
             this.білийToolStripMenuItem.Click += new System.EventHandler(this.білийToolStripMenuItem_Click);
             // 
             // синійToolStripMenuItem
             // 
             this.синійToolStripMenuItem.Name = "синійToolStripMenuItem";
-            this.синійToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.синійToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
             this.синійToolStripMenuItem.Text = "блакитний";
             this.синійToolStripMenuItem.Click += new System.EventHandler(this.синійToolStripMenuItem_Click);
             // 
             // сірийToolStripMenuItem
             // 
             this.сірийToolStripMenuItem.Name = "сірийToolStripMenuItem";
-            this.сірийToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.сірийToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
             this.сірийToolStripMenuItem.Text = "сірий";
             this.сірийToolStripMenuItem.Click += new System.EventHandler(this.сірийToolStripMenuItem_Click);
             // 
@@ -285,6 +328,7 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.Вологість);
             this.tabPage2.Controls.Add(this.МолекулярнаФізика);
             this.tabPage2.Controls.Add(this.ЗаконОма);
             this.tabPage2.Controls.Add(this.correctLabel);
@@ -297,6 +341,337 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Тести";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // МолекулярнаФізика
+            // 
+            this.МолекулярнаФізика.Controls.Add(this.groupBox7);
+            this.МолекулярнаФізика.Controls.Add(this.groupBox8);
+            this.МолекулярнаФізика.Controls.Add(this.th3gr1);
+            this.МолекулярнаФізика.Controls.Add(this.groupBox10);
+            this.МолекулярнаФізика.Location = new System.Drawing.Point(3, 6);
+            this.МолекулярнаФізика.Name = "МолекулярнаФізика";
+            this.МолекулярнаФізика.Size = new System.Drawing.Size(440, 291);
+            this.МолекулярнаФізика.TabIndex = 8;
+            this.МолекулярнаФізика.TabStop = false;
+            // 
+            // groupBox7
+            // 
+            this.groupBox7.Controls.Add(this.th3gr4pb2);
+            this.groupBox7.Controls.Add(this.th3gr4pb1);
+            this.groupBox7.Controls.Add(this.th3gr4rb4);
+            this.groupBox7.Controls.Add(this.th3gr4rb3);
+            this.groupBox7.Controls.Add(this.th3gr4rb2);
+            this.groupBox7.Controls.Add(this.th3gr4rb1);
+            this.groupBox7.Location = new System.Drawing.Point(6, 227);
+            this.groupBox7.Name = "groupBox7";
+            this.groupBox7.Size = new System.Drawing.Size(428, 72);
+            this.groupBox7.TabIndex = 2;
+            this.groupBox7.TabStop = false;
+            this.groupBox7.Text = "У закритому балоні з киснем знаходиться вугілля масою12 г. У скільки разів змінит" +
+    "ься кількість речовини в балоні після згоряння вугілля? Маса кисню-32 г";
+            // 
+            // th3gr4pb2
+            // 
+            this.th3gr4pb2.Image = global::Physics.Properties.Resources.incorrect;
+            this.th3gr4pb2.Location = new System.Drawing.Point(391, 35);
+            this.th3gr4pb2.Name = "th3gr4pb2";
+            this.th3gr4pb2.Size = new System.Drawing.Size(31, 29);
+            this.th3gr4pb2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.th3gr4pb2.TabIndex = 1;
+            this.th3gr4pb2.TabStop = false;
+            // 
+            // th3gr4pb1
+            // 
+            this.th3gr4pb1.Image = global::Physics.Properties.Resources.correct;
+            this.th3gr4pb1.Location = new System.Drawing.Point(364, 35);
+            this.th3gr4pb1.Name = "th3gr4pb1";
+            this.th3gr4pb1.Size = new System.Drawing.Size(31, 29);
+            this.th3gr4pb1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.th3gr4pb1.TabIndex = 1;
+            this.th3gr4pb1.TabStop = false;
+            // 
+            // th3gr4rb4
+            // 
+            this.th3gr4rb4.AutoSize = true;
+            this.th3gr4rb4.Location = new System.Drawing.Point(280, 33);
+            this.th3gr4rb4.Name = "th3gr4rb4";
+            this.th3gr4rb4.Size = new System.Drawing.Size(75, 17);
+            this.th3gr4rb4.TabIndex = 0;
+            this.th3gr4rb4.TabStop = true;
+            this.th3gr4rb4.Text = "↓ у 2 рази";
+            this.th3gr4rb4.UseVisualStyleBackColor = true;
+            // 
+            // th3gr4rb3
+            // 
+            this.th3gr4rb3.AutoSize = true;
+            this.th3gr4rb3.Location = new System.Drawing.Point(188, 33);
+            this.th3gr4rb3.Name = "th3gr4rb3";
+            this.th3gr4rb3.Size = new System.Drawing.Size(75, 17);
+            this.th3gr4rb3.TabIndex = 0;
+            this.th3gr4rb3.TabStop = true;
+            this.th3gr4rb3.Text = "↑ у 2 рази";
+            this.th3gr4rb3.UseVisualStyleBackColor = true;
+            // 
+            // th3gr4rb2
+            // 
+            this.th3gr4rb2.AutoSize = true;
+            this.th3gr4rb2.Location = new System.Drawing.Point(97, 33);
+            this.th3gr4rb2.Name = "th3gr4rb2";
+            this.th3gr4rb2.Size = new System.Drawing.Size(78, 17);
+            this.th3gr4rb2.TabIndex = 0;
+            this.th3gr4rb2.TabStop = true;
+            this.th3gr4rb2.Text = "↓ у 1,5 раз";
+            this.th3gr4rb2.UseVisualStyleBackColor = true;
+            // 
+            // th3gr4rb1
+            // 
+            this.th3gr4rb1.AutoSize = true;
+            this.th3gr4rb1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.th3gr4rb1.Location = new System.Drawing.Point(6, 33);
+            this.th3gr4rb1.Name = "th3gr4rb1";
+            this.th3gr4rb1.Size = new System.Drawing.Size(75, 17);
+            this.th3gr4rb1.TabIndex = 0;
+            this.th3gr4rb1.TabStop = true;
+            this.th3gr4rb1.Text = "↓ у 4 рази";
+            this.th3gr4rb1.UseVisualStyleBackColor = true;
+            // 
+            // groupBox8
+            // 
+            this.groupBox8.Controls.Add(this.th3gr3pb2);
+            this.groupBox8.Controls.Add(this.th3gr3pb1);
+            this.groupBox8.Controls.Add(this.th3gr3rb4);
+            this.groupBox8.Controls.Add(this.th3gr3rb3);
+            this.groupBox8.Controls.Add(this.th3gr3rb2);
+            this.groupBox8.Controls.Add(this.th3gr3rb1);
+            this.groupBox8.Location = new System.Drawing.Point(6, 153);
+            this.groupBox8.Name = "groupBox8";
+            this.groupBox8.Size = new System.Drawing.Size(428, 68);
+            this.groupBox8.TabIndex = 2;
+            this.groupBox8.TabStop = false;
+            this.groupBox8.Text = "Якою була б відносна атомна маса фтору, якби за атомну оди­ницю маси прийняли мас" +
+    "у молекули водню?";
+            // 
+            // th3gr3pb2
+            // 
+            this.th3gr3pb2.Image = global::Physics.Properties.Resources.incorrect;
+            this.th3gr3pb2.Location = new System.Drawing.Point(391, 30);
+            this.th3gr3pb2.Name = "th3gr3pb2";
+            this.th3gr3pb2.Size = new System.Drawing.Size(31, 29);
+            this.th3gr3pb2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.th3gr3pb2.TabIndex = 1;
+            this.th3gr3pb2.TabStop = false;
+            // 
+            // th3gr3pb1
+            // 
+            this.th3gr3pb1.Image = global::Physics.Properties.Resources.correct;
+            this.th3gr3pb1.Location = new System.Drawing.Point(364, 33);
+            this.th3gr3pb1.Name = "th3gr3pb1";
+            this.th3gr3pb1.Size = new System.Drawing.Size(31, 29);
+            this.th3gr3pb1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.th3gr3pb1.TabIndex = 1;
+            this.th3gr3pb1.TabStop = false;
+            // 
+            // th3gr3rb4
+            // 
+            this.th3gr3rb4.AutoSize = true;
+            this.th3gr3rb4.Location = new System.Drawing.Point(279, 42);
+            this.th3gr3rb4.Name = "th3gr3rb4";
+            this.th3gr3rb4.Size = new System.Drawing.Size(66, 17);
+            this.th3gr3rb4.TabIndex = 0;
+            this.th3gr3rb4.TabStop = true;
+            this.th3gr3rb4.Text = "16 а.о.м";
+            this.th3gr3rb4.UseVisualStyleBackColor = true;
+            // 
+            // th3gr3rb3
+            // 
+            this.th3gr3rb3.AutoSize = true;
+            this.th3gr3rb3.Location = new System.Drawing.Point(188, 42);
+            this.th3gr3rb3.Name = "th3gr3rb3";
+            this.th3gr3rb3.Size = new System.Drawing.Size(75, 17);
+            this.th3gr3rb3.TabIndex = 0;
+            this.th3gr3rb3.TabStop = true;
+            this.th3gr3rb3.Text = "12,5 а.о.м";
+            this.th3gr3rb3.UseVisualStyleBackColor = true;
+            // 
+            // th3gr3rb2
+            // 
+            this.th3gr3rb2.AutoSize = true;
+            this.th3gr3rb2.Location = new System.Drawing.Point(97, 42);
+            this.th3gr3rb2.Name = "th3gr3rb2";
+            this.th3gr3rb2.Size = new System.Drawing.Size(66, 17);
+            this.th3gr3rb2.TabIndex = 0;
+            this.th3gr3rb2.TabStop = true;
+            this.th3gr3rb2.Text = "19 а.о.м";
+            this.th3gr3rb2.UseVisualStyleBackColor = true;
+            // 
+            // th3gr3rb1
+            // 
+            this.th3gr3rb1.AutoSize = true;
+            this.th3gr3rb1.Location = new System.Drawing.Point(6, 42);
+            this.th3gr3rb1.Name = "th3gr3rb1";
+            this.th3gr3rb1.Size = new System.Drawing.Size(69, 17);
+            this.th3gr3rb1.TabIndex = 0;
+            this.th3gr3rb1.TabStop = true;
+            this.th3gr3rb1.Text = "9,5 а.о.м";
+            this.th3gr3rb1.UseVisualStyleBackColor = true;
+            // 
+            // th3gr1
+            // 
+            this.th3gr1.Controls.Add(this.th3gr1pb2);
+            this.th3gr1.Controls.Add(this.th3gr1pb1);
+            this.th3gr1.Controls.Add(this.th3gr1rb4);
+            this.th3gr1.Controls.Add(this.th3gr1rb3);
+            this.th3gr1.Controls.Add(this.th3gr1rb2);
+            this.th3gr1.Controls.Add(this.th3gr1rb1);
+            this.th3gr1.Location = new System.Drawing.Point(6, 19);
+            this.th3gr1.Name = "th3gr1";
+            this.th3gr1.Size = new System.Drawing.Size(428, 58);
+            this.th3gr1.TabIndex = 0;
+            this.th3gr1.TabStop = false;
+            this.th3gr1.Text = "Яка маса 25 моль кисню?";
+            // 
+            // th3gr1pb2
+            // 
+            this.th3gr1pb2.Image = global::Physics.Properties.Resources.incorrect;
+            this.th3gr1pb2.Location = new System.Drawing.Point(391, 23);
+            this.th3gr1pb2.Name = "th3gr1pb2";
+            this.th3gr1pb2.Size = new System.Drawing.Size(31, 29);
+            this.th3gr1pb2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.th3gr1pb2.TabIndex = 1;
+            this.th3gr1pb2.TabStop = false;
+            // 
+            // th3gr1pb1
+            // 
+            this.th3gr1pb1.Image = global::Physics.Properties.Resources.correct;
+            this.th3gr1pb1.Location = new System.Drawing.Point(364, 23);
+            this.th3gr1pb1.Name = "th3gr1pb1";
+            this.th3gr1pb1.Size = new System.Drawing.Size(31, 29);
+            this.th3gr1pb1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.th3gr1pb1.TabIndex = 1;
+            this.th3gr1pb1.TabStop = false;
+            // 
+            // th3gr1rb4
+            // 
+            this.th3gr1rb4.AutoSize = true;
+            this.th3gr1rb4.Location = new System.Drawing.Point(280, 38);
+            this.th3gr1rb4.Name = "th3gr1rb4";
+            this.th3gr1rb4.Size = new System.Drawing.Size(48, 17);
+            this.th3gr1rb4.TabIndex = 0;
+            this.th3gr1rb4.TabStop = true;
+            this.th3gr1rb4.Text = "0,8 т";
+            this.th3gr1rb4.UseVisualStyleBackColor = true;
+            // 
+            // th3gr1rb3
+            // 
+            this.th3gr1rb3.AutoSize = true;
+            this.th3gr1rb3.Location = new System.Drawing.Point(189, 38);
+            this.th3gr1rb3.Name = "th3gr1rb3";
+            this.th3gr1rb3.Size = new System.Drawing.Size(56, 17);
+            this.th3gr1rb3.TabIndex = 0;
+            this.th3gr1rb3.TabStop = true;
+            this.th3gr1rb3.Text = "0,8 мг";
+            this.th3gr1rb3.UseVisualStyleBackColor = true;
+            // 
+            // th3gr1rb2
+            // 
+            this.th3gr1rb2.AutoSize = true;
+            this.th3gr1rb2.Location = new System.Drawing.Point(98, 38);
+            this.th3gr1rb2.Name = "th3gr1rb2";
+            this.th3gr1rb2.Size = new System.Drawing.Size(54, 17);
+            this.th3gr1rb2.TabIndex = 0;
+            this.th3gr1rb2.TabStop = true;
+            this.th3gr1rb2.Text = "0,8 кг";
+            this.th3gr1rb2.UseVisualStyleBackColor = true;
+            // 
+            // th3gr1rb1
+            // 
+            this.th3gr1rb1.AutoSize = true;
+            this.th3gr1rb1.Location = new System.Drawing.Point(7, 38);
+            this.th3gr1rb1.Name = "th3gr1rb1";
+            this.th3gr1rb1.Size = new System.Drawing.Size(48, 17);
+            this.th3gr1rb1.TabIndex = 0;
+            this.th3gr1rb1.TabStop = true;
+            this.th3gr1rb1.Text = "0,8 г";
+            this.th3gr1rb1.UseVisualStyleBackColor = true;
+            // 
+            // groupBox10
+            // 
+            this.groupBox10.Controls.Add(this.th3gr2pb2);
+            this.groupBox10.Controls.Add(this.th3gr2pb1);
+            this.groupBox10.Controls.Add(this.th3gr2rb4);
+            this.groupBox10.Controls.Add(this.th3gr2rb3);
+            this.groupBox10.Controls.Add(this.th3gr2rb2);
+            this.groupBox10.Controls.Add(this.th3gr2rb1);
+            this.groupBox10.Location = new System.Drawing.Point(6, 83);
+            this.groupBox10.Name = "groupBox10";
+            this.groupBox10.Size = new System.Drawing.Size(428, 64);
+            this.groupBox10.TabIndex = 1;
+            this.groupBox10.TabStop = false;
+            this.groupBox10.Text = "Який об \'єм займають 4 моль алюмінію?";
+            // 
+            // th3gr2pb2
+            // 
+            this.th3gr2pb2.Image = global::Physics.Properties.Resources.incorrect;
+            this.th3gr2pb2.Location = new System.Drawing.Point(391, 29);
+            this.th3gr2pb2.Name = "th3gr2pb2";
+            this.th3gr2pb2.Size = new System.Drawing.Size(31, 29);
+            this.th3gr2pb2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.th3gr2pb2.TabIndex = 1;
+            this.th3gr2pb2.TabStop = false;
+            // 
+            // th3gr2pb1
+            // 
+            this.th3gr2pb1.Image = global::Physics.Properties.Resources.correct;
+            this.th3gr2pb1.Location = new System.Drawing.Point(364, 29);
+            this.th3gr2pb1.Name = "th3gr2pb1";
+            this.th3gr2pb1.Size = new System.Drawing.Size(31, 29);
+            this.th3gr2pb1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.th3gr2pb1.TabIndex = 1;
+            this.th3gr2pb1.TabStop = false;
+            // 
+            // th3gr2rb4
+            // 
+            this.th3gr2rb4.AutoSize = true;
+            this.th3gr2rb4.Location = new System.Drawing.Point(279, 42);
+            this.th3gr2rb4.Name = "th3gr2rb4";
+            this.th3gr2rb4.Size = new System.Drawing.Size(40, 17);
+            this.th3gr2rb4.TabIndex = 0;
+            this.th3gr2rb4.TabStop = true;
+            this.th3gr2rb4.Text = "0,4";
+            this.th3gr2rb4.UseVisualStyleBackColor = true;
+            // 
+            // th3gr2rb3
+            // 
+            this.th3gr2rb3.AutoSize = true;
+            this.th3gr2rb3.Location = new System.Drawing.Point(188, 42);
+            this.th3gr2rb3.Name = "th3gr2rb3";
+            this.th3gr2rb3.Size = new System.Drawing.Size(52, 17);
+            this.th3gr2rb3.TabIndex = 0;
+            this.th3gr2rb3.TabStop = true;
+            this.th3gr2rb3.Text = "0,004";
+            this.th3gr2rb3.UseVisualStyleBackColor = true;
+            // 
+            // th3gr2rb2
+            // 
+            this.th3gr2rb2.AutoSize = true;
+            this.th3gr2rb2.Location = new System.Drawing.Point(97, 42);
+            this.th3gr2rb2.Name = "th3gr2rb2";
+            this.th3gr2rb2.Size = new System.Drawing.Size(34, 17);
+            this.th3gr2rb2.TabIndex = 0;
+            this.th3gr2rb2.TabStop = true;
+            this.th3gr2rb2.Text = "4 ";
+            this.th3gr2rb2.UseVisualStyleBackColor = true;
+            // 
+            // th3gr2rb1
+            // 
+            this.th3gr2rb1.AutoSize = true;
+            this.th3gr2rb1.Location = new System.Drawing.Point(6, 42);
+            this.th3gr2rb1.Name = "th3gr2rb1";
+            this.th3gr2rb1.Size = new System.Drawing.Size(46, 17);
+            this.th3gr2rb1.TabIndex = 0;
+            this.th3gr2rb1.TabStop = true;
+            this.th3gr2rb1.Text = "0,04";
+            this.th3gr2rb1.UseVisualStyleBackColor = true;
             // 
             // ЗаконОма
             // 
@@ -1013,337 +1388,6 @@
             this.formRadioButton2.UseVisualStyleBackColor = true;
             this.formRadioButton2.CheckedChanged += new System.EventHandler(this.formRadioButton2_CheckedChanged);
             // 
-            // МолекулярнаФізика
-            // 
-            this.МолекулярнаФізика.Controls.Add(this.groupBox7);
-            this.МолекулярнаФізика.Controls.Add(this.groupBox8);
-            this.МолекулярнаФізика.Controls.Add(this.th3gr1);
-            this.МолекулярнаФізика.Controls.Add(this.groupBox10);
-            this.МолекулярнаФізика.Location = new System.Drawing.Point(3, 6);
-            this.МолекулярнаФізика.Name = "МолекулярнаФізика";
-            this.МолекулярнаФізика.Size = new System.Drawing.Size(440, 291);
-            this.МолекулярнаФізика.TabIndex = 8;
-            this.МолекулярнаФізика.TabStop = false;
-            // 
-            // groupBox7
-            // 
-            this.groupBox7.Controls.Add(this.th3gr4pb2);
-            this.groupBox7.Controls.Add(this.th3gr4pb1);
-            this.groupBox7.Controls.Add(this.th3gr4rb4);
-            this.groupBox7.Controls.Add(this.th3gr4rb3);
-            this.groupBox7.Controls.Add(this.th3gr4rb2);
-            this.groupBox7.Controls.Add(this.th3gr4rb1);
-            this.groupBox7.Location = new System.Drawing.Point(6, 227);
-            this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(428, 72);
-            this.groupBox7.TabIndex = 2;
-            this.groupBox7.TabStop = false;
-            this.groupBox7.Text = "У закритому балоні з киснем знаходиться вугілля масою12 г. У скільки разів змінит" +
-    "ься кількість речовини в балоні після згоряння вугілля? Маса кисню-32 г";
-            // 
-            // th3gr4pb2
-            // 
-            this.th3gr4pb2.Image = global::Physics.Properties.Resources.incorrect;
-            this.th3gr4pb2.Location = new System.Drawing.Point(391, 35);
-            this.th3gr4pb2.Name = "th3gr4pb2";
-            this.th3gr4pb2.Size = new System.Drawing.Size(31, 29);
-            this.th3gr4pb2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.th3gr4pb2.TabIndex = 1;
-            this.th3gr4pb2.TabStop = false;
-            // 
-            // th3gr4pb1
-            // 
-            this.th3gr4pb1.Image = global::Physics.Properties.Resources.correct;
-            this.th3gr4pb1.Location = new System.Drawing.Point(364, 35);
-            this.th3gr4pb1.Name = "th3gr4pb1";
-            this.th3gr4pb1.Size = new System.Drawing.Size(31, 29);
-            this.th3gr4pb1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.th3gr4pb1.TabIndex = 1;
-            this.th3gr4pb1.TabStop = false;
-            // 
-            // th3gr4rb4
-            // 
-            this.th3gr4rb4.AutoSize = true;
-            this.th3gr4rb4.Location = new System.Drawing.Point(280, 33);
-            this.th3gr4rb4.Name = "th3gr4rb4";
-            this.th3gr4rb4.Size = new System.Drawing.Size(75, 17);
-            this.th3gr4rb4.TabIndex = 0;
-            this.th3gr4rb4.TabStop = true;
-            this.th3gr4rb4.Text = "↓ у 2 рази";
-            this.th3gr4rb4.UseVisualStyleBackColor = true;
-            // 
-            // th3gr4rb3
-            // 
-            this.th3gr4rb3.AutoSize = true;
-            this.th3gr4rb3.Location = new System.Drawing.Point(188, 33);
-            this.th3gr4rb3.Name = "th3gr4rb3";
-            this.th3gr4rb3.Size = new System.Drawing.Size(75, 17);
-            this.th3gr4rb3.TabIndex = 0;
-            this.th3gr4rb3.TabStop = true;
-            this.th3gr4rb3.Text = "↑ у 2 рази";
-            this.th3gr4rb3.UseVisualStyleBackColor = true;
-            // 
-            // th3gr4rb2
-            // 
-            this.th3gr4rb2.AutoSize = true;
-            this.th3gr4rb2.Location = new System.Drawing.Point(97, 33);
-            this.th3gr4rb2.Name = "th3gr4rb2";
-            this.th3gr4rb2.Size = new System.Drawing.Size(78, 17);
-            this.th3gr4rb2.TabIndex = 0;
-            this.th3gr4rb2.TabStop = true;
-            this.th3gr4rb2.Text = "↓ у 1,5 раз";
-            this.th3gr4rb2.UseVisualStyleBackColor = true;
-            // 
-            // th3gr4rb1
-            // 
-            this.th3gr4rb1.AutoSize = true;
-            this.th3gr4rb1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.th3gr4rb1.Location = new System.Drawing.Point(6, 33);
-            this.th3gr4rb1.Name = "th3gr4rb1";
-            this.th3gr4rb1.Size = new System.Drawing.Size(75, 17);
-            this.th3gr4rb1.TabIndex = 0;
-            this.th3gr4rb1.TabStop = true;
-            this.th3gr4rb1.Text = "↓ у 4 рази";
-            this.th3gr4rb1.UseVisualStyleBackColor = true;
-            // 
-            // groupBox8
-            // 
-            this.groupBox8.Controls.Add(this.th3gr3pb2);
-            this.groupBox8.Controls.Add(this.th3gr3pb1);
-            this.groupBox8.Controls.Add(this.th3gr3rb4);
-            this.groupBox8.Controls.Add(this.th3gr3rb3);
-            this.groupBox8.Controls.Add(this.th3gr3rb2);
-            this.groupBox8.Controls.Add(this.th3gr3rb1);
-            this.groupBox8.Location = new System.Drawing.Point(6, 153);
-            this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(428, 68);
-            this.groupBox8.TabIndex = 2;
-            this.groupBox8.TabStop = false;
-            this.groupBox8.Text = "Якою була б відносна атомна маса фтору, якби за атомну оди­ницю маси прийняли мас" +
-    "у молекули водню?";
-            // 
-            // th3gr3pb2
-            // 
-            this.th3gr3pb2.Image = global::Physics.Properties.Resources.incorrect;
-            this.th3gr3pb2.Location = new System.Drawing.Point(391, 30);
-            this.th3gr3pb2.Name = "th3gr3pb2";
-            this.th3gr3pb2.Size = new System.Drawing.Size(31, 29);
-            this.th3gr3pb2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.th3gr3pb2.TabIndex = 1;
-            this.th3gr3pb2.TabStop = false;
-            // 
-            // th3gr3pb1
-            // 
-            this.th3gr3pb1.Image = global::Physics.Properties.Resources.correct;
-            this.th3gr3pb1.Location = new System.Drawing.Point(364, 33);
-            this.th3gr3pb1.Name = "th3gr3pb1";
-            this.th3gr3pb1.Size = new System.Drawing.Size(31, 29);
-            this.th3gr3pb1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.th3gr3pb1.TabIndex = 1;
-            this.th3gr3pb1.TabStop = false;
-            // 
-            // th3gr3rb4
-            // 
-            this.th3gr3rb4.AutoSize = true;
-            this.th3gr3rb4.Location = new System.Drawing.Point(279, 42);
-            this.th3gr3rb4.Name = "th3gr3rb4";
-            this.th3gr3rb4.Size = new System.Drawing.Size(66, 17);
-            this.th3gr3rb4.TabIndex = 0;
-            this.th3gr3rb4.TabStop = true;
-            this.th3gr3rb4.Text = "16 а.о.м";
-            this.th3gr3rb4.UseVisualStyleBackColor = true;
-            // 
-            // th3gr3rb3
-            // 
-            this.th3gr3rb3.AutoSize = true;
-            this.th3gr3rb3.Location = new System.Drawing.Point(188, 42);
-            this.th3gr3rb3.Name = "th3gr3rb3";
-            this.th3gr3rb3.Size = new System.Drawing.Size(75, 17);
-            this.th3gr3rb3.TabIndex = 0;
-            this.th3gr3rb3.TabStop = true;
-            this.th3gr3rb3.Text = "12,5 а.о.м";
-            this.th3gr3rb3.UseVisualStyleBackColor = true;
-            // 
-            // th3gr3rb2
-            // 
-            this.th3gr3rb2.AutoSize = true;
-            this.th3gr3rb2.Location = new System.Drawing.Point(97, 42);
-            this.th3gr3rb2.Name = "th3gr3rb2";
-            this.th3gr3rb2.Size = new System.Drawing.Size(66, 17);
-            this.th3gr3rb2.TabIndex = 0;
-            this.th3gr3rb2.TabStop = true;
-            this.th3gr3rb2.Text = "19 а.о.м";
-            this.th3gr3rb2.UseVisualStyleBackColor = true;
-            // 
-            // th3gr3rb1
-            // 
-            this.th3gr3rb1.AutoSize = true;
-            this.th3gr3rb1.Location = new System.Drawing.Point(6, 42);
-            this.th3gr3rb1.Name = "th3gr3rb1";
-            this.th3gr3rb1.Size = new System.Drawing.Size(69, 17);
-            this.th3gr3rb1.TabIndex = 0;
-            this.th3gr3rb1.TabStop = true;
-            this.th3gr3rb1.Text = "9,5 а.о.м";
-            this.th3gr3rb1.UseVisualStyleBackColor = true;
-            // 
-            // th3gr1
-            // 
-            this.th3gr1.Controls.Add(this.th3gr1pb2);
-            this.th3gr1.Controls.Add(this.th3gr1pb1);
-            this.th3gr1.Controls.Add(this.th3gr1rb4);
-            this.th3gr1.Controls.Add(this.th3gr1rb3);
-            this.th3gr1.Controls.Add(this.th3gr1rb2);
-            this.th3gr1.Controls.Add(this.th3gr1rb1);
-            this.th3gr1.Location = new System.Drawing.Point(6, 19);
-            this.th3gr1.Name = "th3gr1";
-            this.th3gr1.Size = new System.Drawing.Size(428, 58);
-            this.th3gr1.TabIndex = 0;
-            this.th3gr1.TabStop = false;
-            this.th3gr1.Text = "Яка маса 25 моль кисню?";
-            // 
-            // th3gr1pb2
-            // 
-            this.th3gr1pb2.Image = global::Physics.Properties.Resources.incorrect;
-            this.th3gr1pb2.Location = new System.Drawing.Point(391, 23);
-            this.th3gr1pb2.Name = "th3gr1pb2";
-            this.th3gr1pb2.Size = new System.Drawing.Size(31, 29);
-            this.th3gr1pb2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.th3gr1pb2.TabIndex = 1;
-            this.th3gr1pb2.TabStop = false;
-            // 
-            // th3gr1pb1
-            // 
-            this.th3gr1pb1.Image = global::Physics.Properties.Resources.correct;
-            this.th3gr1pb1.Location = new System.Drawing.Point(364, 23);
-            this.th3gr1pb1.Name = "th3gr1pb1";
-            this.th3gr1pb1.Size = new System.Drawing.Size(31, 29);
-            this.th3gr1pb1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.th3gr1pb1.TabIndex = 1;
-            this.th3gr1pb1.TabStop = false;
-            // 
-            // th3gr1rb4
-            // 
-            this.th3gr1rb4.AutoSize = true;
-            this.th3gr1rb4.Location = new System.Drawing.Point(280, 38);
-            this.th3gr1rb4.Name = "th3gr1rb4";
-            this.th3gr1rb4.Size = new System.Drawing.Size(48, 17);
-            this.th3gr1rb4.TabIndex = 0;
-            this.th3gr1rb4.TabStop = true;
-            this.th3gr1rb4.Text = "0,8 т";
-            this.th3gr1rb4.UseVisualStyleBackColor = true;
-            // 
-            // th3gr1rb3
-            // 
-            this.th3gr1rb3.AutoSize = true;
-            this.th3gr1rb3.Location = new System.Drawing.Point(189, 38);
-            this.th3gr1rb3.Name = "th3gr1rb3";
-            this.th3gr1rb3.Size = new System.Drawing.Size(56, 17);
-            this.th3gr1rb3.TabIndex = 0;
-            this.th3gr1rb3.TabStop = true;
-            this.th3gr1rb3.Text = "0,8 мг";
-            this.th3gr1rb3.UseVisualStyleBackColor = true;
-            // 
-            // th3gr1rb2
-            // 
-            this.th3gr1rb2.AutoSize = true;
-            this.th3gr1rb2.Location = new System.Drawing.Point(98, 38);
-            this.th3gr1rb2.Name = "th3gr1rb2";
-            this.th3gr1rb2.Size = new System.Drawing.Size(54, 17);
-            this.th3gr1rb2.TabIndex = 0;
-            this.th3gr1rb2.TabStop = true;
-            this.th3gr1rb2.Text = "0,8 кг";
-            this.th3gr1rb2.UseVisualStyleBackColor = true;
-            // 
-            // th3gr1rb1
-            // 
-            this.th3gr1rb1.AutoSize = true;
-            this.th3gr1rb1.Location = new System.Drawing.Point(7, 38);
-            this.th3gr1rb1.Name = "th3gr1rb1";
-            this.th3gr1rb1.Size = new System.Drawing.Size(48, 17);
-            this.th3gr1rb1.TabIndex = 0;
-            this.th3gr1rb1.TabStop = true;
-            this.th3gr1rb1.Text = "0,8 г";
-            this.th3gr1rb1.UseVisualStyleBackColor = true;
-            // 
-            // groupBox10
-            // 
-            this.groupBox10.Controls.Add(this.th3gr2pb2);
-            this.groupBox10.Controls.Add(this.th3gr2pb1);
-            this.groupBox10.Controls.Add(this.th3gr2rb4);
-            this.groupBox10.Controls.Add(this.th3gr2rb3);
-            this.groupBox10.Controls.Add(this.th3gr2rb2);
-            this.groupBox10.Controls.Add(this.th3gr2rb1);
-            this.groupBox10.Location = new System.Drawing.Point(6, 83);
-            this.groupBox10.Name = "groupBox10";
-            this.groupBox10.Size = new System.Drawing.Size(428, 64);
-            this.groupBox10.TabIndex = 1;
-            this.groupBox10.TabStop = false;
-            this.groupBox10.Text = "Який об \'єм займають 4 моль алюмінію?";
-            // 
-            // th3gr2pb2
-            // 
-            this.th3gr2pb2.Image = global::Physics.Properties.Resources.incorrect;
-            this.th3gr2pb2.Location = new System.Drawing.Point(391, 29);
-            this.th3gr2pb2.Name = "th3gr2pb2";
-            this.th3gr2pb2.Size = new System.Drawing.Size(31, 29);
-            this.th3gr2pb2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.th3gr2pb2.TabIndex = 1;
-            this.th3gr2pb2.TabStop = false;
-            // 
-            // th3gr2pb1
-            // 
-            this.th3gr2pb1.Image = global::Physics.Properties.Resources.correct;
-            this.th3gr2pb1.Location = new System.Drawing.Point(364, 29);
-            this.th3gr2pb1.Name = "th3gr2pb1";
-            this.th3gr2pb1.Size = new System.Drawing.Size(31, 29);
-            this.th3gr2pb1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.th3gr2pb1.TabIndex = 1;
-            this.th3gr2pb1.TabStop = false;
-            // 
-            // th3gr2rb4
-            // 
-            this.th3gr2rb4.AutoSize = true;
-            this.th3gr2rb4.Location = new System.Drawing.Point(279, 42);
-            this.th3gr2rb4.Name = "th3gr2rb4";
-            this.th3gr2rb4.Size = new System.Drawing.Size(40, 17);
-            this.th3gr2rb4.TabIndex = 0;
-            this.th3gr2rb4.TabStop = true;
-            this.th3gr2rb4.Text = "0,4";
-            this.th3gr2rb4.UseVisualStyleBackColor = true;
-            // 
-            // th3gr2rb3
-            // 
-            this.th3gr2rb3.AutoSize = true;
-            this.th3gr2rb3.Location = new System.Drawing.Point(188, 42);
-            this.th3gr2rb3.Name = "th3gr2rb3";
-            this.th3gr2rb3.Size = new System.Drawing.Size(52, 17);
-            this.th3gr2rb3.TabIndex = 0;
-            this.th3gr2rb3.TabStop = true;
-            this.th3gr2rb3.Text = "0,004";
-            this.th3gr2rb3.UseVisualStyleBackColor = true;
-            // 
-            // th3gr2rb2
-            // 
-            this.th3gr2rb2.AutoSize = true;
-            this.th3gr2rb2.Location = new System.Drawing.Point(97, 42);
-            this.th3gr2rb2.Name = "th3gr2rb2";
-            this.th3gr2rb2.Size = new System.Drawing.Size(34, 17);
-            this.th3gr2rb2.TabIndex = 0;
-            this.th3gr2rb2.TabStop = true;
-            this.th3gr2rb2.Text = "4 ";
-            this.th3gr2rb2.UseVisualStyleBackColor = true;
-            // 
-            // th3gr2rb1
-            // 
-            this.th3gr2rb1.AutoSize = true;
-            this.th3gr2rb1.Location = new System.Drawing.Point(6, 42);
-            this.th3gr2rb1.Name = "th3gr2rb1";
-            this.th3gr2rb1.Size = new System.Drawing.Size(46, 17);
-            this.th3gr2rb1.TabIndex = 0;
-            this.th3gr2rb1.TabStop = true;
-            this.th3gr2rb1.Text = "0,04";
-            this.th3gr2rb1.UseVisualStyleBackColor = true;
-            // 
             // formRadioButton3
             // 
             this.formRadioButton3.AutoSize = true;
@@ -1355,11 +1399,356 @@
             this.formRadioButton3.UseVisualStyleBackColor = true;
             this.formRadioButton3.CheckedChanged += new System.EventHandler(this.formRadioButton3_CheckedChanged);
             // 
+            // formRadioButton4
+            // 
+            this.formRadioButton4.AutoSize = true;
+            this.formRadioButton4.Location = new System.Drawing.Point(505, 118);
+            this.formRadioButton4.Name = "formRadioButton4";
+            this.formRadioButton4.Size = new System.Drawing.Size(74, 17);
+            this.formRadioButton4.TabIndex = 5;
+            this.formRadioButton4.Text = "Вологість";
+            this.formRadioButton4.UseVisualStyleBackColor = true;
+            this.formRadioButton4.CheckedChanged += new System.EventHandler(this.formRadioButton4_CheckedChanged);
+            // 
+            // Вологість
+            // 
+            this.Вологість.Controls.Add(this.groupBox9);
+            this.Вологість.Controls.Add(this.groupBox11);
+            this.Вологість.Controls.Add(this.groupBox12);
+            this.Вологість.Controls.Add(this.th4gr2);
+            this.Вологість.Location = new System.Drawing.Point(3, 3);
+            this.Вологість.Name = "Вологість";
+            this.Вологість.Size = new System.Drawing.Size(440, 291);
+            this.Вологість.TabIndex = 9;
+            this.Вологість.TabStop = false;
+            // 
+            // groupBox9
+            // 
+            this.groupBox9.Controls.Add(this.th4gr4pb2);
+            this.groupBox9.Controls.Add(this.th4gr4pb1);
+            this.groupBox9.Controls.Add(this.th4gr4rb4);
+            this.groupBox9.Controls.Add(this.th4gr4rb3);
+            this.groupBox9.Controls.Add(this.th4gr4rb2);
+            this.groupBox9.Controls.Add(this.th4gr4rb1);
+            this.groupBox9.Location = new System.Drawing.Point(6, 227);
+            this.groupBox9.Name = "groupBox9";
+            this.groupBox9.Size = new System.Drawing.Size(428, 72);
+            this.groupBox9.TabIndex = 2;
+            this.groupBox9.TabStop = false;
+            this.groupBox9.Text = "На скільки більша густина сухого повітря за густину вологого повітря при тиску 10" +
+    "1 кПа і температурі 20 градусів Цельсія за тих самих умов?";
+            // 
+            // th4gr4pb2
+            // 
+            this.th4gr4pb2.Image = global::Physics.Properties.Resources.incorrect;
+            this.th4gr4pb2.Location = new System.Drawing.Point(391, 35);
+            this.th4gr4pb2.Name = "th4gr4pb2";
+            this.th4gr4pb2.Size = new System.Drawing.Size(31, 29);
+            this.th4gr4pb2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.th4gr4pb2.TabIndex = 1;
+            this.th4gr4pb2.TabStop = false;
+            // 
+            // th4gr4pb1
+            // 
+            this.th4gr4pb1.Image = global::Physics.Properties.Resources.correct;
+            this.th4gr4pb1.Location = new System.Drawing.Point(364, 35);
+            this.th4gr4pb1.Name = "th4gr4pb1";
+            this.th4gr4pb1.Size = new System.Drawing.Size(31, 29);
+            this.th4gr4pb1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.th4gr4pb1.TabIndex = 1;
+            this.th4gr4pb1.TabStop = false;
+            // 
+            // th4gr4rb4
+            // 
+            this.th4gr4rb4.AutoSize = true;
+            this.th4gr4rb4.Location = new System.Drawing.Point(280, 33);
+            this.th4gr4rb4.Name = "th4gr4rb4";
+            this.th4gr4rb4.Size = new System.Drawing.Size(46, 17);
+            this.th4gr4rb4.TabIndex = 0;
+            this.th4gr4rb4.TabStop = true;
+            this.th4gr4rb4.Text = "15,1";
+            this.th4gr4rb4.UseVisualStyleBackColor = true;
+            // 
+            // th4gr4rb3
+            // 
+            this.th4gr4rb3.AutoSize = true;
+            this.th4gr4rb3.Location = new System.Drawing.Point(188, 33);
+            this.th4gr4rb3.Name = "th4gr4rb3";
+            this.th4gr4rb3.Size = new System.Drawing.Size(49, 17);
+            this.th4gr4rb3.TabIndex = 0;
+            this.th4gr4rb3.TabStop = true;
+            this.th4gr4rb3.Text = "10.6 ";
+            this.th4gr4rb3.UseVisualStyleBackColor = true;
+            // 
+            // th4gr4rb2
+            // 
+            this.th4gr4rb2.AutoSize = true;
+            this.th4gr4rb2.Location = new System.Drawing.Point(97, 33);
+            this.th4gr4rb2.Name = "th4gr4rb2";
+            this.th4gr4rb2.Size = new System.Drawing.Size(40, 17);
+            this.th4gr4rb2.TabIndex = 0;
+            this.th4gr4rb2.TabStop = true;
+            this.th4gr4rb2.Text = "3,3";
+            this.th4gr4rb2.UseVisualStyleBackColor = true;
+            // 
+            // th4gr4rb1
+            // 
+            this.th4gr4rb1.AutoSize = true;
+            this.th4gr4rb1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.th4gr4rb1.Location = new System.Drawing.Point(6, 33);
+            this.th4gr4rb1.Name = "th4gr4rb1";
+            this.th4gr4rb1.Size = new System.Drawing.Size(43, 17);
+            this.th4gr4rb1.TabIndex = 0;
+            this.th4gr4rb1.TabStop = true;
+            this.th4gr4rb1.Text = "8,4 ";
+            this.th4gr4rb1.UseVisualStyleBackColor = true;
+            // 
+            // groupBox11
+            // 
+            this.groupBox11.Controls.Add(this.th4gr3pb2);
+            this.groupBox11.Controls.Add(this.th4gr3pb1);
+            this.groupBox11.Controls.Add(this.th4gr3rb4);
+            this.groupBox11.Controls.Add(this.th4gr3rb3);
+            this.groupBox11.Controls.Add(this.th4gr3rb2);
+            this.groupBox11.Controls.Add(this.th4gr3rb1);
+            this.groupBox11.Location = new System.Drawing.Point(6, 153);
+            this.groupBox11.Name = "groupBox11";
+            this.groupBox11.Size = new System.Drawing.Size(428, 68);
+            this.groupBox11.TabIndex = 2;
+            this.groupBox11.TabStop = false;
+            this.groupBox11.Text = "До якого значення необхідно понизити тиск, щоб вода закипіла при температурі 90 г" +
+    "радусів Цельсія?";
+            // 
+            // th4gr3pb2
+            // 
+            this.th4gr3pb2.Image = global::Physics.Properties.Resources.incorrect;
+            this.th4gr3pb2.Location = new System.Drawing.Point(391, 30);
+            this.th4gr3pb2.Name = "th4gr3pb2";
+            this.th4gr3pb2.Size = new System.Drawing.Size(31, 29);
+            this.th4gr3pb2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.th4gr3pb2.TabIndex = 1;
+            this.th4gr3pb2.TabStop = false;
+            // 
+            // th4gr3pb1
+            // 
+            this.th4gr3pb1.Image = global::Physics.Properties.Resources.correct;
+            this.th4gr3pb1.Location = new System.Drawing.Point(364, 33);
+            this.th4gr3pb1.Name = "th4gr3pb1";
+            this.th4gr3pb1.Size = new System.Drawing.Size(31, 29);
+            this.th4gr3pb1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.th4gr3pb1.TabIndex = 1;
+            this.th4gr3pb1.TabStop = false;
+            // 
+            // th4gr3rb4
+            // 
+            this.th4gr3rb4.AutoSize = true;
+            this.th4gr3rb4.Location = new System.Drawing.Point(279, 42);
+            this.th4gr3rb4.Name = "th4gr3rb4";
+            this.th4gr3rb4.Size = new System.Drawing.Size(60, 17);
+            this.th4gr3rb4.TabIndex = 0;
+            this.th4gr3rb4.TabStop = true;
+            this.th4gr3rb4.Text = "16 кПа";
+            this.th4gr3rb4.UseVisualStyleBackColor = true;
+            // 
+            // th4gr3rb3
+            // 
+            this.th4gr3rb3.AutoSize = true;
+            this.th4gr3rb3.Location = new System.Drawing.Point(188, 42);
+            this.th4gr3rb3.Name = "th4gr3rb3";
+            this.th4gr3rb3.Size = new System.Drawing.Size(60, 17);
+            this.th4gr3rb3.TabIndex = 0;
+            this.th4gr3rb3.TabStop = true;
+            this.th4gr3rb3.Text = "90 кПа";
+            this.th4gr3rb3.UseVisualStyleBackColor = true;
+            // 
+            // th4gr3rb2
+            // 
+            this.th4gr3rb2.AutoSize = true;
+            this.th4gr3rb2.Location = new System.Drawing.Point(97, 42);
+            this.th4gr3rb2.Name = "th4gr3rb2";
+            this.th4gr3rb2.Size = new System.Drawing.Size(60, 17);
+            this.th4gr3rb2.TabIndex = 0;
+            this.th4gr3rb2.TabStop = true;
+            this.th4gr3rb2.Text = "63 кПа";
+            this.th4gr3rb2.UseVisualStyleBackColor = true;
+            // 
+            // th4gr3rb1
+            // 
+            this.th4gr3rb1.AutoSize = true;
+            this.th4gr3rb1.Location = new System.Drawing.Point(6, 42);
+            this.th4gr3rb1.Name = "th4gr3rb1";
+            this.th4gr3rb1.Size = new System.Drawing.Size(60, 17);
+            this.th4gr3rb1.TabIndex = 0;
+            this.th4gr3rb1.TabStop = true;
+            this.th4gr3rb1.Text = "70 кПа";
+            this.th4gr3rb1.UseVisualStyleBackColor = true;
+            // 
+            // groupBox12
+            // 
+            this.groupBox12.Controls.Add(this.th4gr1pb2);
+            this.groupBox12.Controls.Add(this.th4gr1pb1);
+            this.groupBox12.Controls.Add(this.th4gr1rb4);
+            this.groupBox12.Controls.Add(this.th4gr1rb3);
+            this.groupBox12.Controls.Add(this.th4gr1rb2);
+            this.groupBox12.Controls.Add(this.th4gr1rb1);
+            this.groupBox12.Location = new System.Drawing.Point(6, 19);
+            this.groupBox12.Name = "groupBox12";
+            this.groupBox12.Size = new System.Drawing.Size(428, 58);
+            this.groupBox12.TabIndex = 0;
+            this.groupBox12.TabStop = false;
+            this.groupBox12.Text = "Обидва термометри психрометра показують однакову температуру. Яка відносна вологі" +
+    "сть повітря?";
+            // 
+            // th4gr1pb2
+            // 
+            this.th4gr1pb2.Image = global::Physics.Properties.Resources.incorrect;
+            this.th4gr1pb2.Location = new System.Drawing.Point(391, 23);
+            this.th4gr1pb2.Name = "th4gr1pb2";
+            this.th4gr1pb2.Size = new System.Drawing.Size(31, 29);
+            this.th4gr1pb2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.th4gr1pb2.TabIndex = 1;
+            this.th4gr1pb2.TabStop = false;
+            // 
+            // th4gr1pb1
+            // 
+            this.th4gr1pb1.Image = global::Physics.Properties.Resources.correct;
+            this.th4gr1pb1.Location = new System.Drawing.Point(364, 23);
+            this.th4gr1pb1.Name = "th4gr1pb1";
+            this.th4gr1pb1.Size = new System.Drawing.Size(31, 29);
+            this.th4gr1pb1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.th4gr1pb1.TabIndex = 1;
+            this.th4gr1pb1.TabStop = false;
+            // 
+            // th4gr1rb4
+            // 
+            this.th4gr1rb4.AutoSize = true;
+            this.th4gr1rb4.Location = new System.Drawing.Point(280, 38);
+            this.th4gr1rb4.Name = "th4gr1rb4";
+            this.th4gr1rb4.Size = new System.Drawing.Size(45, 17);
+            this.th4gr1rb4.TabIndex = 0;
+            this.th4gr1rb4.TabStop = true;
+            this.th4gr1rb4.Text = "50%";
+            this.th4gr1rb4.UseVisualStyleBackColor = true;
+            // 
+            // th4gr1rb3
+            // 
+            this.th4gr1rb3.AutoSize = true;
+            this.th4gr1rb3.Location = new System.Drawing.Point(189, 38);
+            this.th4gr1rb3.Name = "th4gr1rb3";
+            this.th4gr1rb3.Size = new System.Drawing.Size(51, 17);
+            this.th4gr1rb3.TabIndex = 0;
+            this.th4gr1rb3.TabStop = true;
+            this.th4gr1rb3.Text = "100%";
+            this.th4gr1rb3.UseVisualStyleBackColor = true;
+            // 
+            // th4gr1rb2
+            // 
+            this.th4gr1rb2.AutoSize = true;
+            this.th4gr1rb2.Location = new System.Drawing.Point(98, 38);
+            this.th4gr1rb2.Name = "th4gr1rb2";
+            this.th4gr1rb2.Size = new System.Drawing.Size(39, 17);
+            this.th4gr1rb2.TabIndex = 0;
+            this.th4gr1rb2.TabStop = true;
+            this.th4gr1rb2.Text = "0%";
+            this.th4gr1rb2.UseVisualStyleBackColor = true;
+            // 
+            // th4gr1rb1
+            // 
+            this.th4gr1rb1.AutoSize = true;
+            this.th4gr1rb1.Location = new System.Drawing.Point(7, 38);
+            this.th4gr1rb1.Name = "th4gr1rb1";
+            this.th4gr1rb1.Size = new System.Drawing.Size(45, 17);
+            this.th4gr1rb1.TabIndex = 0;
+            this.th4gr1rb1.TabStop = true;
+            this.th4gr1rb1.Text = "25%";
+            this.th4gr1rb1.UseVisualStyleBackColor = true;
+            // 
+            // th4gr2
+            // 
+            this.th4gr2.Controls.Add(this.th4gr2pb2);
+            this.th4gr2.Controls.Add(this.th4gr2pb1);
+            this.th4gr2.Controls.Add(this.th4gr2rb4);
+            this.th4gr2.Controls.Add(this.th4gr2rb3);
+            this.th4gr2.Controls.Add(this.th4gr2rb2);
+            this.th4gr2.Controls.Add(this.th4gr2rb1);
+            this.th4gr2.Location = new System.Drawing.Point(6, 83);
+            this.th4gr2.Name = "th4gr2";
+            this.th4gr2.Size = new System.Drawing.Size(428, 64);
+            this.th4gr2.TabIndex = 1;
+            this.th4gr2.TabStop = false;
+            this.th4gr2.Text = "Яка відносна вологість повітря, якщо термометри психрометра показуют 16 і 13 град" +
+    "усів Цельсія?";
+            // 
+            // th4gr2pb2
+            // 
+            this.th4gr2pb2.Image = global::Physics.Properties.Resources.incorrect;
+            this.th4gr2pb2.Location = new System.Drawing.Point(391, 29);
+            this.th4gr2pb2.Name = "th4gr2pb2";
+            this.th4gr2pb2.Size = new System.Drawing.Size(31, 29);
+            this.th4gr2pb2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.th4gr2pb2.TabIndex = 1;
+            this.th4gr2pb2.TabStop = false;
+            // 
+            // th4gr2pb1
+            // 
+            this.th4gr2pb1.Image = global::Physics.Properties.Resources.correct;
+            this.th4gr2pb1.Location = new System.Drawing.Point(364, 29);
+            this.th4gr2pb1.Name = "th4gr2pb1";
+            this.th4gr2pb1.Size = new System.Drawing.Size(31, 29);
+            this.th4gr2pb1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.th4gr2pb1.TabIndex = 1;
+            this.th4gr2pb1.TabStop = false;
+            // 
+            // th4gr2rb4
+            // 
+            this.th4gr2rb4.AutoSize = true;
+            this.th4gr2rb4.Location = new System.Drawing.Point(279, 42);
+            this.th4gr2rb4.Name = "th4gr2rb4";
+            this.th4gr2rb4.Size = new System.Drawing.Size(45, 17);
+            this.th4gr2rb4.TabIndex = 0;
+            this.th4gr2rb4.TabStop = true;
+            this.th4gr2rb4.Text = "36%";
+            this.th4gr2rb4.UseVisualStyleBackColor = true;
+            // 
+            // th4gr2rb3
+            // 
+            this.th4gr2rb3.AutoSize = true;
+            this.th4gr2rb3.Location = new System.Drawing.Point(188, 42);
+            this.th4gr2rb3.Name = "th4gr2rb3";
+            this.th4gr2rb3.Size = new System.Drawing.Size(51, 17);
+            this.th4gr2rb3.TabIndex = 0;
+            this.th4gr2rb3.TabStop = true;
+            this.th4gr2rb3.Text = "100%";
+            this.th4gr2rb3.UseVisualStyleBackColor = true;
+            // 
+            // th4gr2rb2
+            // 
+            this.th4gr2rb2.AutoSize = true;
+            this.th4gr2rb2.Location = new System.Drawing.Point(97, 42);
+            this.th4gr2rb2.Name = "th4gr2rb2";
+            this.th4gr2rb2.Size = new System.Drawing.Size(45, 17);
+            this.th4gr2rb2.TabIndex = 0;
+            this.th4gr2rb2.TabStop = true;
+            this.th4gr2rb2.Text = "71%";
+            this.th4gr2rb2.UseVisualStyleBackColor = true;
+            // 
+            // th4gr2rb1
+            // 
+            this.th4gr2rb1.AutoSize = true;
+            this.th4gr2rb1.Location = new System.Drawing.Point(6, 42);
+            this.th4gr2rb1.Name = "th4gr2rb1";
+            this.th4gr2rb1.Size = new System.Drawing.Size(45, 17);
+            this.th4gr2rb1.TabIndex = 0;
+            this.th4gr2rb1.TabStop = true;
+            this.th4gr2rb1.Text = "28%";
+            this.th4gr2rb1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(630, 412);
+            this.Controls.Add(this.formRadioButton4);
             this.Controls.Add(this.formRadioButton3);
             this.Controls.Add(this.formRadioButton2);
             this.Controls.Add(this.formRadioButton1);
@@ -1375,6 +1764,23 @@
             this.tabPage1.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
+            this.МолекулярнаФізика.ResumeLayout(false);
+            this.groupBox7.ResumeLayout(false);
+            this.groupBox7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.th3gr4pb2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.th3gr4pb1)).EndInit();
+            this.groupBox8.ResumeLayout(false);
+            this.groupBox8.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.th3gr3pb2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.th3gr3pb1)).EndInit();
+            this.th3gr1.ResumeLayout(false);
+            this.th3gr1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.th3gr1pb2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.th3gr1pb1)).EndInit();
+            this.groupBox10.ResumeLayout(false);
+            this.groupBox10.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.th3gr2pb2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.th3gr2pb1)).EndInit();
             this.ЗаконОма.ResumeLayout(false);
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
@@ -1409,23 +1815,23 @@
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.МолекулярнаФізика.ResumeLayout(false);
-            this.groupBox7.ResumeLayout(false);
-            this.groupBox7.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.th3gr4pb2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.th3gr4pb1)).EndInit();
-            this.groupBox8.ResumeLayout(false);
-            this.groupBox8.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.th3gr3pb2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.th3gr3pb1)).EndInit();
-            this.th3gr1.ResumeLayout(false);
-            this.th3gr1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.th3gr1pb2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.th3gr1pb1)).EndInit();
-            this.groupBox10.ResumeLayout(false);
-            this.groupBox10.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.th3gr2pb2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.th3gr2pb1)).EndInit();
+            this.Вологість.ResumeLayout(false);
+            this.groupBox9.ResumeLayout(false);
+            this.groupBox9.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.th4gr4pb2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.th4gr4pb1)).EndInit();
+            this.groupBox11.ResumeLayout(false);
+            this.groupBox11.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.th4gr3pb2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.th4gr3pb1)).EndInit();
+            this.groupBox12.ResumeLayout(false);
+            this.groupBox12.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.th4gr1pb2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.th4gr1pb1)).EndInit();
+            this.th4gr2.ResumeLayout(false);
+            this.th4gr2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.th4gr2pb2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.th4gr2pb1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1539,6 +1945,36 @@
         private System.Windows.Forms.RadioButton th3gr2rb2;
         private System.Windows.Forms.RadioButton th3gr2rb1;
         private System.Windows.Forms.RadioButton formRadioButton3;
+        private System.Windows.Forms.RadioButton formRadioButton4;
+        private System.Windows.Forms.GroupBox Вологість;
+        private System.Windows.Forms.GroupBox groupBox9;
+        private System.Windows.Forms.PictureBox th4gr4pb2;
+        private System.Windows.Forms.PictureBox th4gr4pb1;
+        private System.Windows.Forms.RadioButton th4gr4rb4;
+        private System.Windows.Forms.RadioButton th4gr4rb3;
+        private System.Windows.Forms.RadioButton th4gr4rb2;
+        private System.Windows.Forms.RadioButton th4gr4rb1;
+        private System.Windows.Forms.GroupBox groupBox11;
+        private System.Windows.Forms.PictureBox th4gr3pb2;
+        private System.Windows.Forms.PictureBox th4gr3pb1;
+        private System.Windows.Forms.RadioButton th4gr3rb4;
+        private System.Windows.Forms.RadioButton th4gr3rb3;
+        private System.Windows.Forms.RadioButton th4gr3rb2;
+        private System.Windows.Forms.RadioButton th4gr3rb1;
+        private System.Windows.Forms.GroupBox groupBox12;
+        private System.Windows.Forms.PictureBox th4gr1pb2;
+        private System.Windows.Forms.PictureBox th4gr1pb1;
+        private System.Windows.Forms.RadioButton th4gr1rb4;
+        private System.Windows.Forms.RadioButton th4gr1rb3;
+        private System.Windows.Forms.RadioButton th4gr1rb2;
+        private System.Windows.Forms.RadioButton th4gr1rb1;
+        private System.Windows.Forms.GroupBox th4gr2;
+        private System.Windows.Forms.PictureBox th4gr2pb2;
+        private System.Windows.Forms.PictureBox th4gr2pb1;
+        private System.Windows.Forms.RadioButton th4gr2rb4;
+        private System.Windows.Forms.RadioButton th4gr2rb3;
+        private System.Windows.Forms.RadioButton th4gr2rb2;
+        private System.Windows.Forms.RadioButton th4gr2rb1;
     }
 }
 

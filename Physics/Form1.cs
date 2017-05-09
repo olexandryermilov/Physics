@@ -203,6 +203,57 @@ namespace Physics
             th3gr2pb2.Visible = false;
             th3gr3pb2.Visible = false;
             th3gr4pb2.Visible = false;
+
+            th4gr1pb1.Visible = false;
+            th4gr2pb1.Visible = false;
+            th4gr3pb1.Visible = false;
+            th4gr4pb1.Visible = false;
+            th4gr1pb2.Visible = false;
+            th4gr2pb2.Visible = false;
+            th4gr3pb2.Visible = false;
+            th4gr4pb2.Visible = false;
+        }
+
+        public void checkFourthTheme()
+        {
+            int correct = 0;
+            if (th4gr1rb3.Checked)
+            {
+                correct++;
+                th4gr1pb1.Visible = true;
+            }
+            else
+            {
+                th4gr1pb2.Visible = true;
+            }
+            if (th4gr2rb2.Checked)
+            {
+                correct++;
+                th4gr2pb1.Visible = true;
+            }
+            else
+            {
+                th4gr2pb2.Visible = true;
+            }
+            if (th4gr3rb1.Checked)
+            {
+                correct++;
+                th4gr3pb1.Visible = true;
+            }
+            else
+            {
+                th4gr3pb2.Visible = true;
+            }
+            if (th4gr4rb3.Checked)
+            {
+                correct++;
+                th4gr4pb1.Visible = true;
+            }
+            else
+            {
+                th4gr4pb2.Visible = true;
+            }
+            correctLabel.Text = "Correct: " + correct.ToString() + "/4";
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -221,6 +272,9 @@ namespace Physics
                 case 3:
                     checkThirdTheme();
                     break;
+                case 4:
+                    checkFourthTheme();
+                    break;
 
             }
         }
@@ -231,6 +285,7 @@ namespace Physics
             Електродинаміка.Visible = false;
             ЗаконОма.Visible = false;
             МолекулярнаФізика.Visible = false;
+            Вологість.Visible = false;
         }
 
         public void updateText()
@@ -255,6 +310,11 @@ namespace Physics
                     resetGroupBoxes();
                     МолекулярнаФізика.Visible = true;
                     break;
+                case 4:
+                    webBrowser1.Navigate("http://disted.edu.vn.ua/courses/learn/1113");
+                    resetGroupBoxes();
+                    Вологість.Visible = true;
+                    break;
             }
         }
 
@@ -273,6 +333,12 @@ namespace Physics
         private void formRadioButton3_CheckedChanged(object sender, EventArgs e)
         {
             radioButtonChecked = 3;
+            updateText();
+        }
+
+        private void formRadioButton4_CheckedChanged(object sender, EventArgs e)
+        {
+            radioButtonChecked = 4;
             updateText();
         }
     }
